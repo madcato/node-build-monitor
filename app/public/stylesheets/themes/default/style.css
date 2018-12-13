@@ -16,54 +16,59 @@
 }
 
 .default-theme .medium-height {
-    line-height: 40px;
-    height: 40px;
+    line-height: 3em;
+    height: 3em;
 }
 
 .default-theme .reset-height {
     display: inline-block;
-    line-height: normal;
+    line-height: 1em;
 }
 
 .default-theme .flex-container {
-  padding: 0px;
-  margin: 0 auto 0 auto;
-  height: 100%;
-  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .default-theme .flex-item {
-  float: left;
-  width: 33%;
-  height: 25%;
+  display: inline-block;
   color: transparent;
-  position: relative;
 }
 
 .default-theme .flex-item-inner {
   background: transparent;
-  margin: 25px;
-  padding: 25px;
-  box-shadow: 0px 0px 25px 8px rgba(0,0,0,0.8);
+  margin: 1em;
+  padding: 1em;
+  padding-bottom: 2em;
+  box-shadow: 0em 0em 1.8em 0.8em rgba(0,0,0,0.8);
+  text-align: left;
+  max-width: 22em;
+  max-height: 10em;
+  min-width: 22em;
+  min-height: 10em;
+}
+
+.default-theme .flex-item-inner .nowrap {
+
 }
 
 .flex-item .overlay {
   background-color: transparent;
   position: absolute;
-  margin: 25px;
-  top: 0px;
-  right: 0px;
+  margin: 1.8em;
+  top: 0em;
+  right: 0em;
 }
 
 .flex-item .overlay a {
   float: left;
   color: white;
-  font-size: 20pt;
+  font-size: 1.5em;
   background-color: black;
   display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 4.5em;
+  height: 4.5em;
+  line-height: 4em;
   text-align: center;
   vertical-align: middle;
   opacity: 0.8;
@@ -71,7 +76,7 @@
 
 .default-theme .flex-item .info-block {
   float: left;
-  font-size: 15pt;
+  font-size: 1em;
 }
 
 .default-theme .flex-item .project {
@@ -80,46 +85,46 @@
 
 .default-theme .flex-item .project-definition-separator {
   border-left: 1px solid;
-  padding-left: 10px;
-  margin-left: 10px
+  padding-left: 0.8em;
+  margin-left: 0.8em
 }
 
 .default-theme .flex-item .definition {
 }
 
 .default-theme .flex-item .number {
-  font-size: 25pt;
+  font-size: 1.9em;
 }
 
 .default-theme .flex-item .duration-block {
   float: right;
-  font-size: 10pt;
+  font-size: 0.7em;
 }
 
 .default-theme .flex-item .duration-icon {
-  font-size: 35px;
+  font-size: 2.6em;
   float: left;
   margin-top: 3px;
 }
 
 .default-theme .flex-item .time {
-  margin-left: 10px;
+  margin-left: 0.8em;
 }
 
 .default-theme .flex-item .status {
   float: left;
   font-family: 'open_sans_condensedbold';
   font-weight: bold;
-  font-size: 25pt;
+  font-size: 1.8em;
 }
 
 .default-theme .flex-item .reason {
-  margin-left: 10px;
-  font-size: 15pt;
+  margin-left: 0.8em;
+  font-size: 1em;
 }
 
 .default-theme .flex-item .reason-icon {
-  font-size: 25px;
+  font-size: 1.8em;
 }
 
 .default-theme .flex-item .reason-block {
@@ -127,55 +132,19 @@
 }
 
 .default-theme .flex-item .for {
-  margin-left: 15px;
-  font-size: 20px;
+  margin-left: 1em;
+  font-size: 1.5em;
 }
 
 .default-theme .requestedFor-block {
-  font-size: 15pt;
+  font-size: 1em;
   float: left;
   vertical-align: middle;
 }
 
 .default-theme .flex-item .warnings {
   font-weight: bold;
-  font-size: 20pt;
+  font-size: 1.5em;
   float: right;
   vertical-align: middle;
-}
-
-@media (max-height: 600px) {
-  .default-theme .prio-vertical-one {
-    display: none;
-  }
-}
-
-@media (max-height: 760px) {
-  .default-theme .prio-vertical-two {
-    display: none;
-  }
-}
-
-@media (max-height: 900px) {
-  .default-theme .prio-vertical-three {
-    display: none;
-  }
-}
-
-@media (max-width: 870px) {
-  .default-theme .prio-horizontal-one {
-    display: none;
-  }
-}
-
-@media (max-width: 1000px) {
-  .default-theme .prio-horizontal-two {
-    display: none;
-  }
-}
-
-@media (max-width: 1300px) {
-  .default-theme .prio-horizontal-three {
-    display: none;
-  }
 }
